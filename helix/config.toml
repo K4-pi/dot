@@ -1,0 +1,29 @@
+theme = "adwaita-dark"
+
+#Movement rebind
+[keys.normal]
+k = "move_visual_line_down"
+i = "move_visual_line_up"
+j = "move_char_left"
+l = "move_char_right"
+
+#Commands rebind
+p = "paste_before"
+P = "paste_clipboard_before"
+Y = "yank_to_clipboard"
+o = "insert_mode"
+
+[keys.select]
+k = "extend_line_down"
+i = "extend_line_up"
+j = "extend_char_left"
+l = "extend_char_right"
+
+Y = "yank_to_clipboard"
+
+[keys.insert]
+C-k = "move_visual_line_down"
+C-i = "move_visual_line_up"
+C-j = "move_char_left"
+C-l = "move_char_right"
+
