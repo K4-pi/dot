@@ -1,0 +1,19 @@
+# [[language]] # Schemat
+# name = "cpp"
+# scope = "source.cpp"
+# file-types = ["cpp", "cc", "cxx", "hpp", "hh", "hxx"]
+# comment-token = "//"
+# block-comment-tokens = { start = "/*", end = "*/" }
+# language-servers = ["clangd"]
+# indent = { tab-width = 2, unit = " " }
+# auto-format = true
+# formatter = { command = "clang-format", args = ["--style=LLVM"] }
+
+[[language]]
+name = "python"
+scope = "source.py"
+file-types = ["py"]
+comment-token = "#"
+language-servers = ["pyright"]
+indent = { tab-width = 2, unit = " " }
+auto-format = true
